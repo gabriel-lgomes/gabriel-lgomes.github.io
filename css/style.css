@@ -182,7 +182,7 @@ header .intro-text .skills {
 
 @media (max-width: 1290px) {
   div#maincontent {
-    margin: -940px auto 160px !important;
+    margin: -750px auto -20px !important;
   }
 
   video#myVideo {
