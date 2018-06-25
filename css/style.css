@@ -190,7 +190,13 @@ header .intro-text .skills {
   }
 }
 
-@media (min-width: 1360px) {
+@media (min-width: 1360px) { 
+  div#maincontent {
+    margin: -830px auto 50px!important;
+  }
+}
+
+@media (min-width: 1580px) {
   div#maincontent {
     margin: -960px auto 170px !important;
   }
