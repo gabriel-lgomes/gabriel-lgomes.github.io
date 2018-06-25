@@ -177,11 +177,17 @@ header .intro-text .skills {
 
 @media (min-width: 1200px) {
   div#maincontent {
-    margin: -800px auto 0!important;
+    margin: -940px auto 160px !important;
   }
 
   video#myVideo {
-    width: 160%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1999px) {
+  div#maincontent {
+    margin: -740px auto -40px !important;
   }
 }
 
