@@ -194,7 +194,7 @@ section.success {
   }
 
   div#maincontent {
-    margin: -400px auto -30px;
+    margin: -400px auto -30px !important;
   }
 
   #profile {
