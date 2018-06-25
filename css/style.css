@@ -175,7 +175,7 @@ header .intro-text .skills {
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   div#maincontent {
     margin: -960px auto 0!important;
   }
