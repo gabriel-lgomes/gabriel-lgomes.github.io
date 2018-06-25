@@ -192,6 +192,23 @@ section.success {
   section.first {
     padding-top: 75px;
   }
+
+  div#maincontent {
+    margin: -400px auto -30px;
+  }
+
+  #profile {
+    width: 39%;
+  }
+
+  hr.star-light {
+    margin-bottom: 12px;
+  }
+
+  video#myVideo {
+    width: 160%;
+  }
+
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;
