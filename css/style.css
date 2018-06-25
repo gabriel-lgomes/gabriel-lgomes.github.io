@@ -180,13 +180,19 @@ header .intro-text .skills {
   }
 }
 
-@media (min-width: 1290px) {
+@media (min-width: 1351px) {
   div#maincontent {
     margin: -940px auto 160px !important;
   }
 
   video#myVideo {
     width: 100%;
+  }
+}
+
+@media (min-width: 1290px) and (max-width: 1350px ){
+  div#maincontent {
+    margin: -780px auto 160px !important;
   }
 }
 
