@@ -177,7 +177,11 @@ header .intro-text .skills {
 
 @media (min-width: 1200px) {
   div#maincontent {
-    margin: -960px auto 0!important;
+    margin: -800px auto 0!important;
+  }
+
+  video#myVideo {
+    width: 160%;
   }
 }
 
@@ -212,9 +216,6 @@ section.success {
     margin-bottom: 12px;
   }
 
-  video#myVideo {
-    width: 160%;
-  }
 
 }
 #portfolio .portfolio-item {
