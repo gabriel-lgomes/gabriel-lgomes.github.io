@@ -180,7 +180,7 @@ header .intro-text .skills {
   }
 }
 
-@media (min-width: 1351px) {
+@media (max-width: 1290px) {
   div#maincontent {
     margin: -940px auto 160px !important;
   }
@@ -190,7 +190,7 @@ header .intro-text .skills {
   }
 }
 
-@media (min-width: 1290px) and (max-width: 1350px ){
+@media (min-width: 1291px) and (max-width: 1350px ){
   div#maincontent {
     margin: -780px auto 160px !important;
   }
