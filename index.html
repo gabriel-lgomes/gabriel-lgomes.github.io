@@ -29,19 +29,19 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">FrontEnd</a>
+                <a class="navbar-brand" href="#page-top"></a>
             </div>
  
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
+                    </li> 
+                    <li class="page-scroll">
+                        <a href="#about">Sobre Mim</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#portfolio">Portfólio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">Sobre Mim</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contatos</a>
@@ -65,6 +65,28 @@
             </div>
         </div>
     </header>
+
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Quem sou eu?</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Atualmente formado em, Tecnologia em Sistemas para Internet na Instituição de Ensino Centro Universitário SENAC. <br> <br>
+                    Desenvolvi conhecimentos de TI ao longo da minha vida, sou apaixonado pelo o que faço e busco sempre me manter atualizado. </p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Adoro desenvolver para resolver problemas, automatizar coisas e ajudar pessoas. Em meu tempo livre gosto de praticar esportes, praticar programação e ensinar quem tem vontade de aprender! <br> <br>
+
+                    Quer entrar em contato comigo, me manda um <a href="mailto:gabriel_lopes.g@hotmail.com" style="color: #2C3E50;">email</a> &nbsp; :)</p>
+                </div> 
+            </div>
+        </div>
+    </section>
  
     <section id="portfolio">
         <div class="container">
@@ -75,14 +97,14 @@
                 </div>
             </div>
             <div class="row">
-                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/6.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/1.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -94,7 +116,7 @@
                         </div>
                         <img src="img/portfolio/2.png" class="img-responsive" alt="">
                     </a>
-                </div>
+                </div> 
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
@@ -124,109 +146,35 @@
                         </div>
                         <img src="img/portfolio/5.png" class="img-responsive" alt="">
                     </a>
-                </div>
+                </div> 
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/1.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/6.png" class="img-responsive" alt="">
                     </a>
-                </div>
-            </div>
-        </div>
-    </section>
- 
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Quem sou eu?</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Atualmente formado em, Tecnologia em Sistemas para Internet na Instituição de Ensino Centro Universitário SENAC. <br> <br>
-                    Desenvolvi conhecimentos de TI ao longo da minha vida, sou apaixonado pelo o que faço e busco sempre me manter atualizado. </p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Adoro desenvolver para resolver problemas, automatizar coisas e ajudar pessoas. Em meu tempo livre gosto de praticar esportes, praticar programação e ensinar quem tem vontade de aprender! <br> <br>
-
-                    Quer entrar em contato comigo, me manda um <a href="mailto:gabriel_lopes.g@hotmail.com" style="color: #2C3E50;">email</a> &nbsp; :)</p>
                 </div> 
             </div>
         </div>
-    </section>
- 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Fale comigo!</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2"> 
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label for="name">Nome</label>
-                                <input type="text" class="form-control" placeholder="Nome" id="name" required data-validation-required-message="Por favor insira seu nome.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label for="email">Email</label>
-                                <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Por favor insira seu email.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label for="phone">Telefone</label>
-                                <input type="tel" class="form-control" placeholder="Telefone" id="phone" required data-validation-required-message="Por favor insira seu telefone.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label for="message">Mensagem</label>
-                                <textarea rows="5" class="form-control" placeholder="Mensagem" id="message" required data-validation-required-message="Por favor digite a mensagem."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Enviar</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
     </section> 
-
-    <footer class="text-center">
+   
+    <footer class="text-center" id="contact">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-6">
                         <h3>Contatos</h3>
-                        <p><span class="glyphicon glyphicon-phone"></span> &nbsp; (11) 94045-8652</p>
+                        <p><span class="glyphicon glyphicon-phone"></span> &nbsp; <a href="tel:11940458652" target="_blank">(11) 94045-8652</a></p>
                         <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:gabriel_lopes.g@hotmail.com"> &nbsp; gabriel_lopes.g@hotmail.com</a></p>
                     </div>
                     <div class="footer-col col-md-6">
                         <h3>Redes Sociais</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="https://www.facebook.com/gabriel.lopes.9235" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="https://www.linkedin.com/in/gabriel-dev/" target="_blank" class="btn-social btn-outline"><span class="sr-only">Linkedin</span><i class="fa fa-linkedin"></i></a>
                             </li>
                              
                         </ul>
@@ -263,13 +211,13 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Tozz Descartáveis</h2>
+                            <h2>Banco Digio</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/1.png" class="img-responsive img-centered" alt="">
-                            <p>Tozz Descrtáveis, voltado á venda de produtos para decoração de festas. <br> <b>Tecnologias usadas para o desenvolvimento:</b> Wordpress, Plugins,  HTML, CSS, Bootstrap, JavaScript e PHP.  <a href="http://tozzdescartaveis.com.br/" target="_blank">Acessar site</a></p>
+                            <p><b>Tecnologias usadas para o desenvolvimento:</b> <br> Html5, Sass, Gulp, plugins do gulp, Bootstrap, Slick, Jquery e PHP.  <a href="https://digio.com.br/" target="_blank">Acessar site</a></p>
                             <ul class="list-inline item-details">  
                                 <li>Serviço prestado:
-                                    <strong><a href="#">Programador Front End</a>
+                                    <strong><a href="#">Programador Front-end</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -292,13 +240,13 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>AGESAFETY</h2>
+                            <h2>Plano&Plano</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/2.png" class="img-responsive img-centered" alt="">
-                            <p>AGESAFETY, voltado á cursos de assessoria em segurança e saúde Ocupacional. <br> <b>Tecnologias usadas para o desenvolvimento:</b> PHP, HTML, CSS, Bootstrap e JavaScript. <br> <a href="http://agesafety.com.br/index.php" target="_blank">Acessar site</a></p>
+                            <p><b>Tecnologias usadas para o desenvolvimento:</b> PHP, HTML5, Sass, Gulp, Bootstrap e Jquery. <br> <a href="https://www.planoeplano.com.br/" target="_blank">Acessar site</a></p>
                             <ul class="list-inline item-details">  
                                 <li>Serviço prestado:
-                                    <strong><a href="#">Programador Front End</a>
+                                    <strong><a href="#">Programador Front-end</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -321,13 +269,13 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Colégio Cardeal Lizarte</h2>
+                            <h2>Camargo Corrêa</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/3.png" class="img-responsive img-centered" alt="">
-                            <p>Colégio Cardeal Lizarte, site feito para apresentar informações do colégio como, fotos, videos, localização e etc. <br> <b>Tecnologias usadas para o desenvolvimento:</b> HTML, CSS e JavaScript.  <a href="http://www.colegiocardeallizarte.com.br/" target="_blank">Acessar site</a></p>
+                            <p><b>Tecnologias usadas para o desenvolvimento:</b> PHP, HTML5, Sass, Gulp, Bootstrap e Jquery. <br> <a href="https://www.ccdi.com.br/" target="_blank">Acessar site</a></p>
                             <ul class="list-inline item-details"> 
                                 <li>Serviço prestado:
-                                    <strong><a href="#">Programador Front End</a>
+                                    <strong><a href="#">Programador Front-end</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -350,14 +298,13 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                           <h2>Clube illy</h2>
+                           <h2>Wildlife Studios</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/4.png" class="img-responsive img-centered" alt="">
-                            <p>
-                            A illycaffè é uma empresa familiar italiana, fundada em Trieste em 1933, comprometida em oferecer o melhor café do mundo.<br> <b>Tecnologias usadas para o desenvolvimento:</b> Wordpress  <a href="http://www.clubeilly.com.br/" target="_blank">Acessar site</a></p>
+                            <p><b>Tecnologias usadas para o desenvolvimento:</b> PHP, HTML5, Sass, Gulp, Bootstrap, Wordpress e Jquery. <br> <a href="https://wildlifestudios.com/" target="_blank">Acessar site</a></p>
                             <ul class="list-inline item-details">  
                                 <li>Serviço prestado:
-                                    <strong><a href="#">Programador Front End</a>
+                                    <strong><a href="#">Programador Front-end</a>
                                     </strong>
                                 </li>
                             </ul>
